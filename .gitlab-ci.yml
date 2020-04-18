@@ -1,0 +1,58 @@
+image: "ubuntu"
+
+stages:
+    - build
+    - test
+    - publish
+    - deploy
+
+
+before_script:
+        #por enquanto nada
+
+build:
+    stage: build
+    script:
+        - apt-get update -y
+        - apt install default-jdk -y
+        - echo "Build -> gerar class de uma aplicacao java e executar"
+        - ls $CI_CONFIG_PATH
+        - ls $CI_PROJECT_DIR
+        - echo $CI_PROJECT_PATH
+        - echo $JAVA_PATH
+        - javac $CI_PROJECT_DIR/DevOps.java
+        - ls -la $CI_PROJECT_DIR
+        - java DevOps
+        
+    artifacts:
+        paths:
+            #- build/
+            - $CI_PROJECT_PATH
+
+test:
+    stage: test
+    script:
+        - echo "Deveria ter um teste aqui"
+
+publish:
+    image: docker:latest
+    stage: publish
+    services:
+        - docker:dind
+
+    script:
+        - echo "Deveria fazer o Publish"
+
+deploy:
+    image: docker:latest
+    stage: deploy
+    services:
+        - docker:dind
+
+    script:
+        - echo "Deploy"
+        #- echo $DOCKER_USERNAME
+        #- echo $DOCKER_PASSWORD
+        - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+        - docker build -t registry.gitlab.com/devopsgaita/trabalho .
+        - docker push registry.gitlab.com/devopsgaita/trabalho
