@@ -58,21 +58,25 @@ Abaixo, alguns prints demonstrando a execução do processo executando o pipelin
 ### Build:
 
 Esta etapa realiza a compilação da aplicação, gerando um class executável do fonte "DevOps.java". Após isso roda a execução desta aplicação, exibindo a mensgem "Ola mundo...". Confomre imagem:
+
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/build.png)
 
 ### Test:
 
 Como esta etapa não contempla o contexto do trabalho, a mesma apenas apresenta uma mensagem "Deveria ter um teste aqui"
+
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/test.png)
 
 ### Publish:
 
 Como dito anteriormente, esta etapa não conseguimos desenvolver, portanto apresenta apenas a mensagem "Deveria fazer o Publish"
+
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/publish.png)
 
 ### Deploy:
 
 Esta etapa sobe uma imagem docker da aplicação para ser executada no ruuner local
+
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/deploy1.png)
 
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/deploy2.png)
