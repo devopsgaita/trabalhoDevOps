@@ -22,7 +22,7 @@ Como aplicação de teste, foi elaborada uma aplicação simples, em Java, que a
 
 Como mencionado anteriormente, todas as etapas do processo de pipeline são executadas e armazenadas na solução GitLab, devido a mesma oferecer esta possibilidade e consequentemente facilitar a configuração e integração, tais recursos oferecidos foram utilizados.
 
-Para a realização do trabalho, um Runner dedicado foi configurado em um servidor virtual localizado localmente na residência de um dos colaboradores. O mesmo foi configurado para que pudesse ser possivel executar testes sem limitação de execuções, o mesmo foi configurado como ruuner privilegiado.
+Para a realização do trabalho, um Runner dedicado foi configurado em um servidor virtual localizado localmente na residência de um dos colaboradores. O mesmo foi configurado para que pudesse ser possivel executar testes sem limitação de execuções, o mesmo foi configurado como runner privilegiado.
 
 Com relação as etapas do pipeline, as mesmas foram declaradas no arquivo .gitlab-ci.yml consistindo em build, test, deploy e publish. Cada uma descrita abaixo.
 
