@@ -63,17 +63,17 @@ Esta etapa realiza a compilação da aplicação, gerando um class executável d
 ### Test:
 
 Como esta etapa não contempla o contexto do trabalho, a mesma apenas apresenta uma mensagem "Deveria ter um teste aqui"
-![]()
+![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/test.png)
 
 ### Publish:
 
 Como dito anteriormente, esta etapa não conseguimos desenvolver, portanto apresenta apenas a mensagem "Deveria fazer o Publish"
-![]()
+![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/publish.png)
 
 ### Deploy:
 
 Esta etapa sobe uma imagem docker da aplicação para ser executada no ruuner local
-![]()
-![]()
+![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/deploy1.png)
+![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/deploy2.png)
 
 ## Resultados obtidos no Runner
