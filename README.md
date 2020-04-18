@@ -1,6 +1,6 @@
 # Trabalho DevOps - Setrem
 
-Raphael Gaita Gomes e Maikel Lozekann
+Raphael Gaita Gomes e Maikel Losekann
 
 Este documento tem por objetivo descrever o motivos da escolha das ferramentas utilizadas para a execução do trabalho, bem como informações de como o ambiente foi contruido, possibilitando sua reprodução.
 
@@ -45,7 +45,7 @@ Nesta etapa, ocorreia a obtenção da ultima versão do conteiner contido no rep
 ### Instruções para execução
 
 Para a execução do pipeline é necessário possuir uma conta no Gitlab com um Runner local dedicado configurado, para isso, se faz necessário executar as etapas contidas na documentação presente no link https://docs.gitlab.com/runner/ .
-Após a configuração do ambiente Gitlab, é necessário efetua o download do projeto presente no seguinte endereço do Github @@@@@@@@@@ o mesmo deve ser enviado ao Gitlab para execução do pipeline. Para facilitar a verificação do projeto, as credenciais de acesso as contas usadas para a implementação do trabalho (exclusivas para tal finalidade) foram enviadas por e-mail.
+Após a configuração do ambiente Gitlab, é necessário efetua o download do projeto presente no seguinte endereço do Github https://github.com/devopsgaita/trabalhoDevOps o mesmo deve ser enviado ao Gitlab para execução do pipeline. Para facilitar a verificação do projeto, as credenciais de acesso as contas usadas para a implementação do trabalho (exclusivas para tal finalidade) foram enviadas por e-mail.
 
 Ao se efetuar modificações no projeto e atualização do mesmo no ambiente do Gitlab, o pipeline é disparado, executando as etapas de build, test, em seguida, deploy e publish.
 
@@ -82,3 +82,7 @@ Esta etapa sobe uma imagem docker da aplicação para ser executada no ruuner lo
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/deploy2.png)
 
 ## Resultados obtidos no Runner
+
+A imagem abaixo apresenta o runner em execução:
+
+![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/runner1.png)
