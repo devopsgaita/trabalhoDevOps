@@ -74,6 +74,7 @@ Como dito anteriormente, esta etapa não conseguimos desenvolver, portanto apres
 
 Esta etapa sobe uma imagem docker da aplicação para ser executada no ruuner local
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/deploy1.png)
+
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/deploy2.png)
 
 ## Resultados obtidos no Runner
