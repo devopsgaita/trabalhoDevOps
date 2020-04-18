@@ -49,6 +49,10 @@ Após a configuração do ambiente Gitlab, é necessário efetua o download do p
 
 Ao se efetuar modificações no projeto e atualização do mesmo no ambiente do Gitlab, o pipeline é disparado, executando as etapas de build, test, em seguida, deploy e publish.
 
+## Endereço do projeto no Gitlab
+
+https://gitlab.com/devopsgaita/trabalho
+
 ## Resultados obtidos no GitLab
 
 No decorrer da elaboração do trabalho, constatamos extrema dificuldade em por em pratica o que foi solicitado, após intervenção e tiração de dúvidas com o professor, conseguimos avançar e executar algumas etapas do processo de pipeline (build, test, deploy), com relação ao publish, não conseguimos efetuá-lo com sucesso devido a problemas com a configuração do webhook e configurações relacionadas a publicação do conteiner criado armazenado no Gitlab, assim, tal etapa ficou sem ações internas relevantes.
@@ -86,3 +90,4 @@ Esta etapa sobe uma imagem docker da aplicação para ser executada no ruuner lo
 A imagem abaixo apresenta o runner em execução:
 
 ![](https://raw.githubusercontent.com/devopsgaita/trabalhoDevOps/master/images/runner1.png)
+
